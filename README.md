@@ -2,9 +2,9 @@
 
 <img src="favicon.png" width="100" style="margin:-4em 0 -1.5em" />
 
-本博客使用 [docsify](https://docsify.js.org/#/?id=docsify) + [gittalk](https://github.com/gitalk/gitalk) + [codepen](https://codepen.io/foreverZ133/pens/public) 搭建。
+本博客使用 [docsify](https://docsify.js.org/#/?id=docsify) + [gittalk](https://github.com/gitalk/gitalk) + [codepen](https://codepen.io/foreverZ133/pens/public) 搭建，于 [netlify](https://app.netlify.com/) 托管部署。
 
-收录了 [永恒君](https://github.com/forever-z-133) 前端开发过程中的测验、实战、总结与感想，与君共勉。
+收录了 [永恒君](https://github.com/letmefly98) 前端开发过程中的测验、实战、总结与感想，与君共勉。
 
 ## 在线预览
 

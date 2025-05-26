@@ -55,4 +55,4 @@
 
 <img src="https://s1.ax1x.com/2020/10/23/BAXbcV.png" alt="文章中的最佳行高" style="max-width: 700px">
 
-其他感想可见我的另个博客 [关于间距规范的两点建议](https://github.com/forever-z-133/others/issues/98)
+其他感想可见我的另个博客 [关于间距规范的两点建议](/articles/minds/suggestion-about-css-spacing)

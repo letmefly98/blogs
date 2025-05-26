@@ -37,7 +37,7 @@ https://www.51cto.com/article/780992.html
 
 #### CSS 卡顿
 
-比如动画开销：https://forever-z-133.github.io/demos/others/funny/css-stuck.html
+比如动画开销
 
 ## 代码原因的卡顿
 
