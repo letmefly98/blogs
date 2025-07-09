@@ -32,6 +32,7 @@
 - [JS 数据类型方面的蹊跷](https://forever-z.cn/#/articles/topic/strangeness-of-javascript-data-type.md)
 - [JS 小数的精度问题的总结](https://forever-z.cn/#/articles/topic/js-numer-precision.md)
 - [批量下载图片的速率优化](https://forever-z.cn/#/articles/topic/optimize-of-donwload-image.md)
+- [记一次全栈开发经历](https://forever-z.cn/#/articles/topic/full-stack-development-experience.md)
 
 > #### 随笔感想
 
