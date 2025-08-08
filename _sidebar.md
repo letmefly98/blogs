@@ -42,6 +42,7 @@
 #### 学习笔记
 
 - [编写 ts 类型建模的心得分享](/articles/study/ideas-of-ts-model.md)
+- [大文件分片上传前后端开发](/articles/study/upload-chunk-file.md)
 - [微前端原理与实现整理](/articles/study/principle-of-micro-frontends.md)
 - [前端开发应该掌握的计算几何基础](/articles/study/base-geometry.md)
 - [惰性函数&偏函数&科里化](/articles/study/currying-function.md)
