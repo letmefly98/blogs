@@ -41,6 +41,7 @@
 
 #### 学习笔记
 
+- [AI Spec 工作流初体验](/articles/study/ai-spec-introduce.md)
 - [编写 ts 类型建模的心得分享](/articles/study/ideas-of-ts-model.md)
 - [大文件分片上传前后端开发](/articles/study/upload-chunk-file.md)
 - [微前端原理与实现整理](/articles/study/principle-of-micro-frontends.md)

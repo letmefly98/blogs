@@ -1,0 +1,31 @@
+---
+description: 
+globs:
+alwaysApply: true
+---
+---
+description: Command /spec - 精简编排器（仅串行说明与引用）
+globs:
+  alwaysApply: false
+---
+
+# 命令：/spec（精简编排器）
+
+## 目的
+- 作为编排器，按顺序执行三步：/require → （确认） → /design → （确认） → /task。
+- 不承载细节规则与模板，细节全部在独立命令文件中维护。
+
+## 执行顺序
+1) /require：生成并确认 .specs/{spec_name}/requirements.md
+2) /design：基于确认的 requirements.md 生成并确认 .specs/{spec_name}/design.md
+3) /task：依据 design.md 拆解与跟踪执行，维护 .specs/{spec_name}/tasks.md 与 .specs/{spec_name}/modify.md
+
+## 产物目录
+- .specs/{spec_name}/requirements.md
+- .specs/{spec_name}/design.md
+- .specs/{spec_name}/tasks.md
+- .specs/{spec_name}/modify.md
+
+## 严格遵守！确认与风控
+- 各阶段完成后需用户确认，方可进入下一阶段。
+- 高风险动作（如数据迁移/权限变更）需在 /design 或 /task 阶段二次确认。
