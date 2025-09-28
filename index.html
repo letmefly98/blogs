@@ -9,16 +9,14 @@
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <meta name="viewport"
     content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="wap-font-scale" content="no">
   <link rel="shortcut icon" href="favicon.png" />
   <title>永恒的案例库</title>
   <meta name="description" content="demo,案例,foreverZ133">
-  <link rel="stylesheet" href="./static/vue.min.css">
-  <link rel="stylesheet" href="./static/vuep.min.css">
-  <link rel="stylesheet" href="./static/gitalk.css">
+  <link rel="stylesheet" href="./static/docsify-theme.vue.min.css">
   <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
@@ -30,35 +28,23 @@
       auto2top: true,
       name: '永恒的财宝',
       repo: 'https://github.com/letmefly98/blogs/',
+      vueGlobalOptions: {
+        data() {
+          return {
+            baseUrl: 'https://forever-z.cn',
+          };
+        },
+      },
     }
   </script>
   <script src="./static/docsify.min.js"></script>
   <script src="./static/vue.min.js"></script>
-  <script src="./static/vuep.min.js"></script>
-  <script src="./static/gitalk.plugins.min.js"></script>
-  <script src="./static/gitalk.min.js"></script>
   <script src="./static/prism-scss.min.js"></script>
   <script src="./static/prism-less.min.js"></script>
   <script src="./static/prism-pug.min.js"></script>
   <script src="./static/prism-typescript.min.js"></script>
   <script src="./static/prism-json.min.js"></script>
   <script src="./static/prism-jsx.min.js"></script>
-  <script src="./assets/js/md5.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: 'ddf187a63ba064fa694c',
-      clientSecret: '9edfacdf411671462f110b52bda99e140f418b2b',
-      repo: 'demo-preview',
-      owner: 'letmefly98',
-      admin: ['letmefly98'],
-      distractionFreeMode: true,
-      id: md5(window.location.hash)
-    });
-
-    window.gittalk = gitalk;
-
-    gitalk.render('app');
-  </script>
 </body>
 
 </html>
