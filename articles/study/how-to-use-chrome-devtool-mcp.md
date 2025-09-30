@@ -6,7 +6,7 @@
 
 其中 `MCP`（即 `Model Context Protocol`）实则是一种协议，用于给 `AI Agent` 提供规范化的通信，让其能了解某些特定的知识、或进行特定服务的操作。比如：  
 
-* 连通 `nuxt-mcp` 服务可给 `AI Agent` 提供最新的文档知识
+* 连通 `nuxt-mcp` 服务可给 `AI Agent` 提供最新的 `Nuxt.js` 文档知识
 * 连通 `tapd MCP` 服务可让 `AI Agent` 去读取某个需求的内容、或直接流转状态等
 * 腾讯收录的 `MCP` 服务列表：https://cloud.tencent.com/developer/mcp
 * `GitHub` 收录的 `MCP` 服务列表：https://github.com/mcp

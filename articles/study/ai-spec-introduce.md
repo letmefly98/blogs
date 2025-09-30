@@ -38,10 +38,10 @@
 要让模型采用我们的 `Spec` 工作流，你需要先为其准备规则（`Rules`）。  
 我一般采用 `重述需求->技术方案->具体实现清单` 即 `require -> design -> tasks` 的三段式。 
 
-以 “将项目中所有 `xxModel.ts` 文件名称改为 `xx.model.ts` 并修正文件引用” 为例，  
+以 “将项目中所有 xxModel.ts 文件名称改为 xx.model.ts 并修正文件引用” 为例，  
 * 重述需求，会继续明确需求，比如已经是 `xx.model.ts` 的文件怎么处理，是否所有对该文件的引用都修改，等等。  
 * 技术方案，会列出比如用 `shell` 命令还是别的，以及按先查找、再修改、再打包验证的步骤，等等。  
-* 具体实现，我基本就不看了。随着 ide 的执行，可能才发现用打包来验证文件引用会太慢和往复，就该中断执行继续对话调整下技术方案，再确认执行。
+* 具体实现，我基本就不看了。随着 `IDE` 的执行，可能才发现用打包来验证文件引用会太慢和往复，就该中断执行继续对话调整下技术方案，再确认执行。
 
 ### CodeBuddy 的自定义斜杠命令
 
@@ -111,11 +111,11 @@ globs:
 在 **重述需求** 流程中，就和平常需求会一样，着重需要调整的是：
 
 * 识别歧义、明确边界、补充场景、等待澄清问题或确认需求、规划优先级
-* 按更规范化的 EARS 语法撰写需求，落盘为 PRD 需求文档
+* 按更规范化的 EARS 语法撰写需求，落盘为 `PRD` 需求文档
 
 可查看 <a :href="`${baseUrl}/assets/md/require.mdc`" title="笔者在用的design.mdc">require.mdc</a>，是我个人在用的版本。
 
-以 “找出 README.md 中没有列出的文章” 这个需求为例，在 PRD 需求文档 `.specs/missing-articles-analysis/requirements.md` 中将生成如下内容：
+以 “找出 README.md 中没有列出的文章” 这个需求为例，在 `PRD` 需求文档中将生成如下内容：
 
 <img src="/assets/img/ai-spec-require-case-preview.png" style="max-width:400px" alt="require.mdc 生成的需求文档节选" />
 
@@ -145,12 +145,12 @@ globs:
 在 **具体实现** 流程中，就和真正开发时一样，着重需要调整的是：
 
 * 将工作拆解为 10-15 分钟的最小可执行任务单元
-* 每完成一个单元，更新下 todo-list 状态
+* 每完成一个单元，更新下 `todo-list` 状态
 * 执行过程中遇上设计偏离、需求确实、性能卡点，按情况中断或登记在册
 * 开发遵从已有代码、开发规范
 * 严格遵循质量门禁
 
-可查看 <a :href="`${baseUrl}/assets/md/tasks.mdc`" title="笔者在用的tasks.mdc">tasks.mdc</a>，是我个人在用的版本。过程中的 todo-list 内容大致如下：
+可查看 <a :href="`${baseUrl}/assets/md/tasks.mdc`" title="笔者在用的tasks.mdc">tasks.mdc</a>，是我个人在用的版本。过程中的 `todo-list` 内容大致如下：
 
 <img src="/assets/img/ai-spec-tasks-case-preview.png" style="max-width:400px" alt="design.mdc 生成的技术方案节选" />
 
@@ -163,12 +163,12 @@ globs:
 * 在对话框中输入 “/spec {需求}” 即可。
 * 等待需求文档生成后检查，回答其中的待确认清单，然后输入确认。
 * 等待技术方案设计文档生成后检查，沟通确认技术方案，然后输入确认。
-* 等待 IDE 自动运行，若技术方案无误多半能得到满意结果，但若耗时超长应中断对话去沟通调整技术方案。
+* 等待 `IDE` 自动运行，若技术方案无误多半能得到满意结果，但若耗时超长应中断对话去沟通调整技术方案。
 
 ## 总结
 
 * 介绍了 `AI Spec` 工作流的历程和优缺点
-* 学会使用 IDE 的自定义斜杠命令
+* 学会使用 `IDE` 的自定义斜杠命令
 * 撰写或粘贴 `require.mdc`、`design.mdc`、`tasks.mdc` 且运行结果满足预期
 * 撰写或粘贴 `spec.mdc` 完成闭环，可在项目中实战了
 
